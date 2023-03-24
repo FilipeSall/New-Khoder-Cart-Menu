@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext } from 'react';
 import { GlobalContext} from '../../GlobalContext';
 import styles from './Cart.module.css';
 
