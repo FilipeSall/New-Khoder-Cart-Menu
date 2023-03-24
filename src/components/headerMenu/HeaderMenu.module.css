@@ -1,0 +1,65 @@
+.container {
+  background-color: var(--primary-color);
+  display: flex;
+  height: 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  background-color: #fff;
+  border: 1px solid var(--primary-color-strong);
+  border-radius: 10px;
+  font-size: 1.2rem;
+  height: 70%;
+  padding: 8px;
+  width: 70%;
+}
+
+.input:focus {
+  outline: 1px solid var(--extra-color);
+}
+
+.clockContainer {
+  align-items: center;
+  display: flex;
+  font-family: "Lato", "Times New Roman", Times, serif;
+  font-size: clamp(1rem,1.5rem, 1.7rem);
+  padding: 4px;
+}
+
+.timeDateWraper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-width: clamp(15%,20%,25%);
+  font-size: clamp(0.5rem, 1.5rem, 1.7rem);
+}
+
+.date{
+    color: var(--thidy-color);
+}
+
+@media screen and (max-width: 650px) {
+  .container {
+    background-color: var(--primary-color-tone);
+    margin: 4px 0;
+    height: 15%;
+  }
+
+  .container{
+    justify-content: space-around;
+  }
+
+  .clockContainer{
+    font-size: clamp(1rem,1.3rem,1.5rem);
+  }
+
+  .timeDateWraper{
+    font-size: clamp(0.5rem , 8rem, 1rem);
+
+  }
+}
+
+
+

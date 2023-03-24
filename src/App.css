@@ -1,0 +1,17 @@
+  .App__Container{
+    display: flex;
+    width: 99vw;
+    border-radius: 10px;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:650px) {
+    .App__Container{
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+    }
+}

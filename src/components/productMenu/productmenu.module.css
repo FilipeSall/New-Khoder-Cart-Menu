@@ -1,0 +1,144 @@
+.container{
+    width: 70%;
+    height:100%;
+    background-color:var(--primary-color-tone);
+}
+
+.menuWraper{
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 1px var(--text-color-tone);
+    height: 90%;
+    background-color:var(--primary-color-tone);
+    margin-left: -15px;
+    overflow-y: scroll;
+    gap: 8px;
+  }
+
+.menuWraper::-webkit-scrollbar{
+    width: 0;
+}
+
+.itemCard{
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    border: 1px solid var(--primary-color-strong);
+    padding: 0.3%;
+    animation: animeLeft .3s ease forwards;
+}
+
+.itemCard:active{
+   border: 1px inset var(--emphasis-color);
+}
+
+.ImgWrapper{
+    background-image:linear-gradient(to bottom,var(--primary-color-tone)50% ,var(--primary-color) 70%);
+    transition: 0.5s ease-in-out;
+    border-radius: 5px;
+}
+
+.itemNum{
+    font-weight: bold;
+    color: var(--alert-color-tone);
+    border-radius: 10px 10px 0 0;
+}
+
+.itemImg{
+    border-radius: 0 0 10px 10px;
+    object-fit: contain;
+}
+
+.priceWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.itemPrice{
+    background-color: var(--alert-color-tone);
+    color: var(--primary-color-tone);
+    border-radius: 4px;
+    padding:1%;
+}
+
+.lowCase, .normalCase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lowCase{
+    font-size:clamp(0.6rem, 0.9rem, 1rem);
+}
+
+.normalCase{
+    font-size:clamp(0.5rem, 1.2rem, 1.5rem);
+}
+
+.sectionAnimated{
+    animation: animeLeft .3s ease forwards;
+}
+
+@keyframes animeLeft {
+    from {
+        transform: translateX(-5%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .container{
+       width: 100%;
+       height: 70%;
+    }
+
+    .menuWraper{
+        align-items: center;
+        flex-direction: row;
+        overflow: scroll;
+        box-shadow: none;   
+        padding: 0;
+    }
+
+    .itemCard{
+        margin: 1%;
+        width: 40%;
+    }
+
+    .itemImg{
+        width:35vw;
+    }
+    .itemPrice{
+        width: 30%;
+        font-size: 0.7rem;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .priceWrapper{
+        padding:1px;
+    }
+
+    .normalCase{
+        font-size: 0.8rem;
+    }
+
+    .lowCase{
+        font-size: 0.5rem;
+    }
+}
+

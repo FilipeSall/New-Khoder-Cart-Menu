@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root{
+  --primary-color: #FCFCFC;
+  --primary-color-tone: #f1f0f0;
+  --primary-color-strong: #cecdcd;
+
+  --emphasis-color:#06D6A0;
+  --emphasis-color-tone:#3de7ba;
+  --emphasis-color-strong:#0f8d6c;
+
+  --alert-color:#6D213C;
+  --alert-color-tone:#a04464;
+  --alert-color-strong:#3d0519;
+
+  --text-color:#090C08;
+  --text-color-tone:#525252;
+  --text-color-strong:#000000;
+
+  --extra-color:#DAA49A;
+  --extra-color-tone:#e9c0b9;
+  --extra-color-strong:#b46e62;
+
+  --thidy-color: #697e7e;
+  --thidy-color-tone: #80b4b4;
+  --thidy-color-strong: #466666;
+}
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'open sans', Arial, Helvetica, sans-serif;
+}
+
+
+.maxHeightContainer{
+  height: 100%;
+}
