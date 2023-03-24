@@ -20,7 +20,7 @@ function ProductMenu() {
         className={styles.menuWraper}
       >
         <Routes>
-          <Route path="/beer600" element={<Beer600 />} />
+          <Route path="/beer600" element={<Beer600 />} default />
           <Route path="/longneck" element={<LongNeck />} />
           <Route path="/doses" element={<Doses />} />
           <Route path="/narg" element={<Narg />} />
