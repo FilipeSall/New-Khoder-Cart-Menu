@@ -1,6 +1,6 @@
 <h1 align="center">Cardápio New Khoder Lounge - mini programa para os garçons</h1>
 
-## http://cardapionewkhoderlounge.neflitfy.app
+## https://newkhodercart.netlify.app
 
 O New Khoder Lounge oferece um cardápio digital acessível aos clientes por meio de um QR code, tornando possível a escolha dos produtos e a solicitação de um garçom ou diretamente no caixa. Embora essa opção seja conveniente, os produtos são identificados por códigos numéricos, o que pode causar dificuldades para os garçons, que precisam memorizar cada produto e seu respectivo código. Para solucionar esse problema, os garçons costumavam carregar um papel com todos os códigos e nomes dos produtos, mas essa prática era imprática, ocupava espaço nos bolsos e, muitas vezes, era facilmente danificada por líquidos.
 
@@ -29,3 +29,5 @@ Depois de estudar mais sobre programação, decidi aprimorar o projeto com base 
 <h3>Nova versão do projeto</h3>
 
 Com o objetivo de melhorar a experiência do cliente e atender às necessidades da loja, decidi criar um cardápio mais interativo e visual. Como o local é subterrâneo e tem dificuldade de acesso a sinal de internet, optei por desenvolver um cardápio que pudesse ser acessado sem a necessidade de conexão. Utilizando o ReactJS, criei uma Single Page Application (SPA) que permite ao usuário visualizar facilmente os produtos com sua tipologia, imagem e preço. Dessa forma, o cliente tem uma experiência mais agradável e prática ao escolher seus produtos, mesmo em um ambiente sem acesso à internet.
+
+![image](https://user-images.githubusercontent.com/86988795/227632458-3bcdfb6f-2e38-48b2-93fc-c318d0fcfbeb.png)
