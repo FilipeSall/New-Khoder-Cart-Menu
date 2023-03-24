@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter} from "react-router-dom";
 import Navigation from "./components/navigation/Navigation";
 import ProductMenu from "./components/productMenu/productMenu";
 import { GlobalStorage } from "./GlobalContext";

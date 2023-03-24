@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useRef, useState } from "react";
+import React from "react";
 import HeaderMenu from "../headerMenu/HeaderMenu.js";
 import styles from "./productmenu.module.css";
 import { Routes, Route } from "react-router-dom";
@@ -12,7 +12,7 @@ import Narg from "./productLists/Narguille.js";
 import Food from "./productLists/Food.js";
 
 function ProductMenu() {
- 
+
   return (
     <main className={styles.container}>
       <HeaderMenu />
