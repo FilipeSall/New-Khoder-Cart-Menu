@@ -1,7 +1,7 @@
 import React from "react";
 import HeaderMenu from "../headerMenu/HeaderMenu.js";
 import styles from "./productmenu.module.css";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import Beer600 from "./productLists/Beer600"
 import LongNeck from "./productLists/LongNeck.js";
 import Doses from "./productLists/Doses.js";
@@ -20,7 +20,8 @@ function ProductMenu() {
         className={styles.menuWraper}
       >
         <Routes>
-          <Route path="/beer600" element={<Beer600 />} default />
+        <Route path="/" element={<Navigate to="/beer600" replace />} />
+          <Route path="/beer600" element={<Beer600 />} />
           <Route path="/longneck" element={<LongNeck />} />
           <Route path="/doses" element={<Doses />} />
           <Route path="/narg" element={<Narg />} />
