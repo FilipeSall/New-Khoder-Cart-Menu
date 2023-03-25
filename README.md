@@ -8,6 +8,7 @@ O New Khoder Lounge oferece um cardápio digital acessível aos clientes por mei
 
 ![versaoantiga](https://user-images.githubusercontent.com/86988795/178396261-b71474ec-6702-4dd3-9a24-8263f98b8f3d.png)
 
+ Para solucionar esse problema, desenvolvi um projeto simples em JavaScript, que permitia a visualização dos nomes dos produtos juntamente com seus respectivos códigos. Os garçons gostaram tanto da solução que pediram para ter acesso ao cardápio digital. Foi então que decidi colocar o projeto no GitHub, tornando-o público e ajudando outros estabelecimentos a otimizarem o atendimento aos clientes. Desde então, o uso do cardápio digital tem contribuído para agilizar o atendimento aos clientes, aumentando a rotatividade do estabelecimento e, consequentemente, o número de vendas.
 
 A primeira versão do projeto foi desenvolvida de forma bastante simples, sem a utilização de boas práticas de programação. Meu código JavaScript acabou ficando bastante extenso, uma vez que ainda não possuía um conhecimento avançado sobre lógica de programação. Apesar disso, a funcionalidade do projeto foi preservada e ele se mostrou muito útil em meu trabalho.
 
